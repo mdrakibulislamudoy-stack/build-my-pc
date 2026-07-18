@@ -1,0 +1,22 @@
+﻿# Root ignores
+node_modules/
+.env
+.DS_Store
+npm-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.vscode/
+coverage/
+build/
+
+# Client ignores
+client/node_modules/
+client/dist/
+client/.vite/
+client/.env
+
+# Server ignores
+server/node_modules/
+server/.env
